@@ -1,0 +1,22 @@
+[
+	{
+		"name":"maheshjkshds",
+		"rollno":101,
+		"percentage":"1.jpg"
+	};
+	{
+		"name":"jameshds",
+		"rollno":102,
+		"percentage":"2.jpg"
+	};
+	{
+		"name":"kellwer",
+		"rollno":103,
+		"percentage":"75%"
+	};
+	{
+		"name":"qwertyu",
+		"rolnlo":104,
+		"percentage":"77%"
+	};
+]

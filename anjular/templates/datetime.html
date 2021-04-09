@@ -1,0 +1,23 @@
+<script src="angular.min.js"></script>
+<html ng-app>
+<p>
+	<label>SELECT a Data</label>
+	<input type ="date" id = "date" ng-model="datevalue"/>
+</p>
+<P>{{datavalue | date:'dd/mm/yyyy'}}</P>
+<p>
+	<label>select a data</label>
+	<input type="date" id = "date" ng-model = "datevalue"/>
+</p>
+<p>{{datevalue | date :'shortDate'}}</p>
+<div>
+	<p>
+		<label>Select a Data</label>
+		<input type = "date" id = "date" ng-model="datevalue"/>
+	</p>
+	<p>{{datevalue | date :'fullDate'}}</p>
+
+
+
+</div>
+</html>

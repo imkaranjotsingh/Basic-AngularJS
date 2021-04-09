@@ -1,0 +1,19 @@
+<script src="angular.min.js"></script>
+<body ng-app="mainapp">
+	<div ng-controller="abc">{{result}}</div>
+	<script>
+		var app=angular.module("mainapp",[]);
+			app.service('AdditionService',function(){
+				this.addition = function(a,b){
+				return Math.ceil(a+b);
+				}
+		});
+			app.controller('abc',function($scope,AdditionService){
+			$scope.result = AdditionService.addition(5.5,6);
+		});
+	</script>
+	
+
+
+
+</body>

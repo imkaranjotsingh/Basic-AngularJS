@@ -1,0 +1,13 @@
+<!Doctype html>
+<body>
+<script src = "angular.min.js"></script>
+<div ng-app>
+<p>
+	<label>Enter the Number</label>
+	<input type = "text" ng-model = "bid"/>
+</p>
+<p>{{ bid | currency : '#&'}}</p>
+</div>
+
+</body>
+</html>

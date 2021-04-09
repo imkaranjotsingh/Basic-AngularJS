@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<script src= "angular.min.js"></script>
+</head>
+<body ng-app="demo">
+<div ng-controller="abc">
+{{ID}}
+</div>
+<script>
+	var app=angular.module('demo',[]);
+	app.value("abc3",7);
+	app.controller('abc',function($scope,abc3){
+	$scope.ID=abc3*abc3;
+	});
+</script>
+
+</body>
+
+
+</html>
+
